@@ -1,0 +1,571 @@
+*{
+	margin:0;
+	padding:0
+}
+.detail {
+    width: 1180px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.address{
+	width:1180px;
+	height:50px;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+}
+.address .now{
+	width:70%;
+	height:50px;
+	overflow:hidden;
+	line-height:50px;
+	float:left;
+	color:#666;
+}
+.address .now a{
+	text-decoration:none;
+}
+
+/* part1 */
+.part1{
+  width: 1180px;
+  height: 574px;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #FFF;
+  border-top: 4px solid #7e7e7e;
+  position: relative;
+}
+.part1 .preview {
+    width: 440px;
+    height: 530px;
+    background: #fff;
+    position: absolute;
+    left: 40px;
+    top: 33px;
+}
+.bigImg {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 367px;
+    height: 420px;
+    margin-left: 35px;
+}
+.bigImg #midimg {
+    width: 367px;
+    height: 420px;
+}
+img{
+	border:0;
+}	
+.bigImg #winSelector {
+    width: 235px;
+    height: 210px;
+    background: #000;
+		position:absolute;
+		border:1px solid #fff;
+		opacity:.15;
+		cursor:crosshair;
+}
+
+/* smallImg */
+.smallImg {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    padding: 6px 0;
+    width: 440px;
+    height: 95px;
+}
+.scrollbutton .smallImg .disabled2{
+	background:none;
+	display:none;
+	margin-right:20px;
+
+}
+.scrollbutton{
+	position:relative;
+	float:left;
+	overflow:hidden;
+	width:20px;
+	height:95px;
+	cursor:pointer;
+}
+#imageMenu .zw-x{
+	margin-left:29px;
+}
+#imageMenu{
+	float:left;
+	overflow:hidden;
+	width:400px;
+	height:95px;
+}
+#imageMenu li#onclickImg,#imageMenu li:hover{
+	width:95px;
+	height:95px;
+	overflow:hidden;
+}
+#imageMenu li{
+	float:left;
+	overflow:hidden;
+	width:95px;
+	height:95px;
+	text-align:center;
+}
+li{
+	list-style:none;
+	display:list-item;
+}
+#imageMenu li img{
+	width:70px;
+	height:70px;
+	cursor:pointer;
+	padding:4px 5px;
+}
+.csrollbutton .smallImgDown{
+	margin-top:-93px;
+	margin-left:420px;
+}
+/* 小图结束 */
+
+#bigView{
+	position:absolute;
+	z-index:999;
+	overflow:hidden;
+	border:1px solid #959595;
+	background:#fff;
+}
+#bigView img{
+	position:absolute;
+}
+
+.part1 .line{
+	width:1px;
+	height:511px;
+	margin-top:31px;
+	border-left:none;
+	font-size:0;
+	position:absolute;
+	left:520px;
+	top:0px;
+}
+
+/* 右边详情开始 */
+.part1 .titleinfo{
+	width:508px;
+	height:506px;
+	overflow:hidden;
+	position:absolute;
+	left:586px;
+	top:28px;
+}
+.part1 .titleinfo .head{
+	width:508px;
+	height:40px;
+	overflow:hidden;
+}
+.part1 .titleinfo .head .name{
+	width:auto;
+	height:40px;
+	overflow:hidden;
+	line-height:40px;
+	font-size:18px;
+	font-family: "Microsoft YaHei" !important;
+  color: #343233;
+  float: left;
+}
+.code {
+    width: auto;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    font-size: 12px;
+    color: #9a9a9a;
+    text-indent: 26px;
+}
+.part1 .titleinfo .price{
+	width:508px;
+	height:58px;
+	overflow:hidden;
+	border-bottom:1px solid #e0e0e0;
+}
+.part1 .titleinfo .price .price1 .price2 .sales{
+    float: left;
+    display: block;
+    width: auto;
+    height: 58px;
+    overflow: hidden;
+}
+.part1 .titleinfo .price .price1 {
+    line-height: 62px;
+    color: #aeaeae;
+    font-size: 14px;
+    font-family: "Microsoft YaHei" !important;
+    text-decoration: line-through;
+}
+.part1 .titleinfo .price .price2 {
+    line-height: 58px;
+    color: #f10205;
+    font-size: 24px;
+    font-family: "Microsoft YaHei" !important;
+    text-indent:20px;
+}
+.part1 .titleinfo .price .sales {
+	line-height:58px;
+	color:#666;
+	text-indent:20px;
+}
+
+.part1 .titleinfo .param {
+	width:508px;
+	height:166px;
+	overflow:hidden;
+	margin-top:9px;
+}
+.part1 .titleinfo .param ul {
+    margin-left: 15px;
+    list-style: none;
+}
+.part1 .titleinfo .param ul li {
+    width: 508px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    float: left;
+}
+.part1 .titleinfo .param ul li p {
+    width: 62px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 34px;
+    float: left;
+    color: #afafaf;
+}
+.part1 .titleinfo .param ul li span {
+    width:446px;
+    height:34px;
+    overflow: hidden;
+    line-height: 34px;
+    float: left;
+    color: #545454;
+}
+select{
+	border-radius:0px;
+	border-color:rgb(169,169,169);
+	box-sizing:border-box;
+	color:black;
+	background-color:white;
+	cursor:default;
+	border-width:1px;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.part1 .titleinfo .param ul li .jian,.jia{
+	cursor: pointer;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 17px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+.part1 .titleinfo .param ul li .theNum {
+    width: 32px;
+    height: 24px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: none;
+    border: 1px solid #CCCCCC;
+    background-color: #fff;
+    line-height: 24px;
+    text-align: center;
+    color: #333;
+    float: left;
+}
+
+.part1 .titleinfo .other {
+	width:508px;
+	height:92px;
+	overflow:hidden;
+	margin-top:15px;
+	border-bottom:1px dashed #e0e0e0;
+}
+.part1 .titleinfo .other em{
+	display:block;
+	width:508px;
+	height:33px;
+	overflow:hidden;
+	line-height:33px;
+	color:#afafaf;
+	font-size:14px;
+	font-family: "Microsoft YaHei" !important;
+	text-indent:15px;
+	font-style:normal;
+}
+.part1 .titleinfo .other ul {
+    margin-left: 15px;
+    margin-top: 15px;
+    list-style: none;
+}
+.part1 .titleinfo .other ul li {
+    width: 150px;
+    height: 28px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 28px;
+    color: #757575;
+    border: 1px solid #ccc;
+    float:left;
+}
+.part1 .titleinfo .other ul li.zw-x{
+	width:13px;
+	height:30px;
+	overflow:hidden;
+	border:none;
+}
+.part1 .titleinfo .button{
+	width:500px;
+	height:53px;
+	overflow:hidden;
+	margin-top:20px;
+}
+.part1 .titleinfo .button .addcart {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 53px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 53px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Microsoft YaHei" !important;
+    background: #848283;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.part1 .titleinfo .button .link {
+    display: block;
+    float: left;
+    width: 125px;
+    height: 51px;
+    overflow: hidden;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    line-height: 53px;
+    color: #858384;
+    font-size: 16px;
+    font-family: "Microsoft YaHei" !important;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.part1 .titleinfo .button .diy {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 53px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 53px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Microsoft YaHei" !important;
+    margin-left: 10px;
+    background: #a2a2a2;
+    cursor: pointer;
+}
+.part1 .titleinfo .timepay {
+    width: 508px;
+    height: 40px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.part1 .titleinfo .timepay .time {
+    width: auto;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    color: #686667;
+    font-size: 12px;
+    float: left;
+    margin-left: 15px;
+}
+.part1 .titleinfo .timepay .pay {
+    width: auto;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    color: #909090;
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+/* 下：详情 */
+.style_detail .proinfo{
+	margin-top:25px;
+	padding:0px;
+	text-align:left;
+	background-color:#fff;
+}
+.style_detail .proinfo .tab {
+    width: 1180px;
+		height:39px;
+    overflow: hidden;
+    border-bottom: none;
+    padding-left: 0px;
+		position:static;
+		z-index:999;
+}
+.style_detail .proinfo .tab_bg {
+    width: 100%;
+    height:100px;
+    border-bottom: 0;
+}
+.detailnow_border{
+	clear:both;
+}
+.style_detail .tab_bg_border {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+		text-align:left;
+}
+.style_detail .proinfo .tab a {
+    cursor: pointer;
+    margin-right: 8px;
+}
+.style_detail .tab_off_1,.tab_off_2{
+    width: 153px;
+    height: 37px;
+    line-height: 37px;
+    text-decoration: none;
+    color: #666!important;
+    text-align: center;
+    float: left;
+    font-family: Arial,"宋体";
+    font-size: 13px;
+    border-style: solid;
+    border-color: #cdcbcb;
+    border-width: 1px 1px 0 1px;
+    background: #fff;
+}
+.style_detail .tab_on_4 {
+    width: 153px;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #fff !important;
+    text-align: center;
+    float: left;
+    font-family: Arial,"宋体";
+    font-size: 13px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    border-width: 1px 1px 0 1px;
+    background: #848283;
+}
+.tab_consult {
+    width: 107px;
+    height: 33px;
+    float: right;
+    margin: 5px 19px 0 0;
+}
+.detailcontent {
+    width: 1140px;
+    min-height: 400px;
+    height: auto !important;
+    height: 400px;
+    overflow: visible;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+.detailparam {
+    width: 1180px;
+    height: auto;
+    overflow: hidden;
+    margin: 0px auto;
+}
+.detailparam .name {
+    width: 1180px;
+    height: 70px;
+    overflow: hidden;
+    line-height: 70px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 28px;
+    font-family: "Microsoft YaHei" !important;
+    font-size: 18px;
+    color: #333;
+    border-top: 2px solid #716f70;
+}
+.detailparam .extend {
+    width: 1140px;
+    height: 160px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    margin: 20px;
+    background: #fafafa;
+}
+.detailparam .extend ul {
+    margin-left: 80px;
+    margin-top: 20px;
+    list-style: none;
+}
+.detailparam .extend ul li {
+    float: left;
+    width: 223px;
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+.detailparam .extend ul li em{
+    font-size:14px;
+		font-family: "Microsoft YaHei" !important;
+		color:#333;
+		font-style:normal;
+}
+.detailparam .extend ul li span{
+	font-size:12px;
+	color:#000;
+}
+.detailservice {
+    width: 1180px;
+    min-height: 400px;
+    height: auto !important;
+    height: 400px;
+    overflow: visible;
+    margin: 0 auto;
+}
+.detailservice .name2 {
+    width: 1180px;
+    height: 70px;
+    overflow: hidden;
+    line-height: 70px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 28px;
+    font-family: "Microsoft YaHei" !important;
+    font-size: 18px;
+    color: #333;
+    border-top: 2px solid #716f70;
+}
+.detailservice .extend2 {
+    width: 1044px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 180%;
+}
+

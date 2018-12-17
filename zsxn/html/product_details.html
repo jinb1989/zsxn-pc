@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>详情</title>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<link rel="stylesheet" href="../css/products.css">
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" href="../css/footer.css">	
+		<link rel="stylesheet" href="../css/product_details.css">
+		<script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<iframe src="header.html" frameborder="0" class="my_header"></iframe>
+		</header>
+		<!-- 主体 -->
+		<div class="detail">
+			<div class="address">
+				<div class="now">
+					您当前的位置：
+					<a href="">首页</a>
+					&nbsp;&gt;&nbsp;
+					<a href="">钻戒</a>
+					&nbsp;&gt;&nbsp;
+					<a href="">订婚女戒</a>
+					<font class="c1">Sky Love / 摩天之恋</font>
+				</div>
+			</div>
+			<div class="style_detail">
+				<div class="part1">
+					<div class="preview">
+						<div id="vertical" class="bigImg">
+							<img src="../img/bgimg1.jpg" id="midimg" width="367" height="420">
+							<div style="left:0px;top:0px;display:none;" id="winSelector"></div>	
+						</div>
+						<!-- 大图结束 -->
+						<div class="smallImg">
+							<div class="scrollbutton smallImgUp disabled disabled2"></div>
+							<div id="imageMenu" class="zw-x">
+								 <ul id="simg">
+									<!-- <li id="onlickImg li1">
+										<img src="../img/bgimg1.jpg" alt="Sky Love / 摩天之恋" width="70" height="70">
+									</li>
+									<li id="li2">
+										<img src="../img/s2.jpg" alt="Sky Love / 摩天之恋" width="70" height="70">
+									</li>
+									<li id="li3">
+										<img src="../img/s3.jpg" alt="Sky Love / 摩天之恋" width="70" height="70">
+									</li>
+									<li id="li4">
+										<img src="../img/s4.jpg" alt="Sky Love / 摩天之恋" width="70" height="70">
+									</li> -->
+								</ul> 
+							</div>
+							<div class="scrolbutton smallImgDown disabled2"></div>
+						</div>
+						<!-- 小图结束 -->
+						<div id="bigView" style="width:512.262px;height:400px;top:8px;left:415px;display:none">
+							<img src="../img/bgimg1.jpg" width="800" height="800" style="left:0px;top:0px;">
+						</div>
+					</div>
+					<dl class="line"></dl>
+					<!-- 右边详情 -->
+					<div class="titleinfo">
+						<div class="head">
+							<div class="name">Sky Love / 摩天之恋</div>
+							<div class="code">商品编号 DB0128</div>
+						</div>
+						<div class="price">
+							<span class="price1">￥8200</span>
+							<span class="price2">￥6780-27800</span>
+							<span class="sales">售出：244件</span>
+						</div>
+						<div class="param">
+							<ul>
+								<li>
+									<p>材质</p>
+									<span id="cz">18K金</span>
+								</li>
+								<li>
+									<p>钻石</p>
+									<span id="zs">0.3CT-0.8CT</span>
+								</li>
+								<li>
+									<p>证书</p>
+									<span id="gj">国检</span>
+								</li>
+								<li>
+									<p>手寸</p>
+									<span>
+										<select name="thesize" id="thesize">
+											<option value="8" selected="selected">&nbsp;8&nbsp;</option>
+											<option value="9">&nbsp;9&nbsp;</option>
+											<option value="10">&nbsp;10&nbsp;</option>
+											<option value="11">&nbsp;11&nbsp;</option>
+											<option value="12">&nbsp;12&nbsp;</option>
+											<option value="13">&nbsp;13&nbsp;</option>
+											<option value="14">&nbsp;14&nbsp;</option>
+											<option value="15">&nbsp;15&nbsp;</option>
+											<option value="16">&nbsp;16&nbsp;</option>
+											<option value="17">&nbsp;17&nbsp;</option>
+											<option value="18">&nbsp;18&nbsp;</option>
+											<option value="19">&nbsp;19&nbsp;</option>
+											<option value="20">&nbsp;20&nbsp;</option>
+											<option value="21">&nbsp;21&nbsp;</option>
+											<option value="22">&nbsp;22&nbsp;</option>
+											<option value="23">&nbsp;23&nbsp;</option>
+											<option value="24">&nbsp;24&nbsp;</option>
+										</select>
+									</span>
+								</li>
+								<li>
+									<p>数量</p>
+									<span>
+										<img src="../img/jian.jpg" alt="减" class="jian" align="absmiddle">
+										<input type="text" id="theNum" value="1" class="theNum" onkeyup="">
+										<img src="../img/jia.jpg" alt="加" class="jia" align="absmiddle">
+										<script type="text/javascript">							
+												$(function(){
+													$(".param .jia").click(function(){
+														var theValue=parseInt(document.getElementById("theNum").value,10);
+														document.getElementById("theNum").value=theValue+1;
+													});
+													$(".param .jian").click(function(){
+														var theValue=parseInt(document.getElementById("theNum").value,10);
+														if(theValue>1){
+															document.getElementById("theNum").value=theValue-1;
+														}
+													});
+												});
+										</script>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="other">
+							<em>选择同款其他产品</em>
+							<ul>
+								<li>
+									<a href="" target="_blank" title="Love cube / 爱立方">18K金&nbsp;1.0CT-1.50CT</a>
+								</li>
+								<li class="zw-x"></li>
+								<li>
+									<a href="" target="_blank" title="Heartbeat 心动">18K金&nbsp;0.20CT-0.50CT</a>
+								</li>
+								<li class="zw-x"></li>
+								<li>
+									<a href="" target="_blank" title="Stare 凝望">18K金&nbsp;0.30CT-0.80CT</a>
+								</li>
+							</ul>
+						</div>
+						<div class="button">
+							<span class="addcart popoplayer">加入购物车</span>
+							<span class="link" rel="541">
+								<img src="../img/xin.jpg" alt="点赞" width="19" height="17" align="absmiddle">&nbsp;28
+							</span>
+							<script>
+								
+                $(function(){ 
+									$(".link").click(function(){ 
+										var love = $(this); 
+										var id = love.attr("rel"); //对应id 
+										//love.fadeOut(300); //渐隐效果 
+										$.ajax({ 
+											type:"POST", 
+											url:"love.php", 
+											data:"id="+id, 
+											cache:false, //不缓存此页面 
+											success:function(data){ 
+												//alert(data);
+												love.html(data); 
+												//love.fadeIn(300); //渐显效果 
+											} 
+										}); 
+										return false; 
+									}); 
+								});
+							</script>
+							<a href="" target="_blank">
+								<span class="diy">我想定制</span>
+							</a>
+						</div>
+						<div class="timepay">
+							<span class="time">配送时间：2018-10-26</span>
+							<span class="pay">本商品支持货到付款</span>
+						</div>
+					</div>
+				</div>
+			<!-- 	part1 end -->
+			<!-- 下：详情 -->
+				<dl class="proinfo">
+					<dl>
+						<dt class="tab" style="position:static;z-index:999;height:39px">
+							<div class="detailnow_border tab_bg" style="padding-bottom:0px;height:100px;">
+								<div class="tab_bg_border">
+									<a href="" rel="detail" class="tab_change tab_on_1" style="margin-top:0px;" number="0">商品详情</a>
+									<a href="" rel="proexstyle" class="tab_change tab_off_2" style="margin-top:0px;" number="1">商品参数</a>								
+									<a href="" rel="payment" class="tab_change tab_off_4" style="margin-top:0px;" number="3">售后服务</a>
+									<div class="tab_consult popoplayer" hidden="hidden" style="cursor:pointer;display:none;"></div>
+								</div>
+							</div>
+						</dt>
+						<dd class="tab_content">
+							<dl id="product_detail" class="product_detail" number="0">
+								<div class="detailcontent">
+									<!-- <p>
+										<img src="../img/1-1.jpg">
+										<img src="../img/1-2.jpg">
+									</p>
+									<p>
+										<img src="../img/2-1.jpg">
+									</p>
+									<p>
+										<img src="../img/3-1.jpg">
+									</p>
+									<p>
+										<img src="../img/4-1.jpg">
+									</p>
+									<p>
+										<img src="../img/5-1.jpg">
+										<img src="../img/5-2.jpg">
+										<img src="../img/5-3.jpg">
+										<img src="../img/5-4.jpg">
+									</p>
+									<p>
+										<br>
+									</p> -->
+								</div>
+							</dl>
+							<!-- 图片结束 -->
+							<dl id="product_proexstyle" class="hide productService product_detail" number="1">
+								<div class="detailparam">
+									<div class="name">详细参数</div>
+									<div class="extend">
+										<ul>
+											<li>
+												<em>商品名称:</em>
+												<span>Sky Love / 摩天之恋</span>
+											</li>
+											<li class="zw-x"></li>
+											<li>
+												<em>商品编号:</em>
+												<span>DB0128</span>
+											</li>
+											<li class="zw-x"></li>
+											<li>
+												<em>商品材质:</em>
+												<span>18K金</span>
+											</li>
+											<li class="zw-x"></li>
+											<li>
+												<em>商品证书:</em>
+												<span>国检</span>
+											</li>
+											<li class="zw-x"></li>
+											<li>
+												<em>主钻重量:</em>
+												<span>0.3CT-0.8CT克拉</span>
+											</li>
+											<li class="zw-x"></li>
+											<li>
+												<em>主钻颜色:</em>
+												<span>H</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</dl>
+							<dl id="productService" class="hide productService product_detail" number="3">
+								<div class="detailservice">
+									<div class="name2">售后服务</div>
+									<div class="extend2">
+										<p style="text-align:center;">
+											<img src="">
+										</p>
+										<p>
+											<br>
+										</p>
+									</div>
+								</div>
+							</dl>
+						</dd>
+					</dl>
+				</dl>	
+			</div>
+		</div>
+		<footer>
+			<iframe src="footer.html" frameborder="0" class="my_footer"></iframe>
+		</footer>
+		<script src="../js/details.js"></script>
+	</body>
+</html>

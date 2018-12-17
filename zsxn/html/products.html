@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<title>商品列表</title>
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/products.css">
+		<link rel="stylesheet" href="../css/header.css">
+		<link rel="stylesheet" href="../css/footer.css">
+		<link rel="stylesheet" href="../css/base.css">
+		<script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<iframe src="header.html" frameborder="0" class="my_header"></iframe>
+		</header>
+		<div class="container">
+			<div class="topimg">
+				<a href="">				
+					<img src="../img/13.jpg" width="100%">					
+				</a>
+			</div>
+			<div class="listmain">
+				<div class="address">
+					<span>您当前的位置：<a href="">首页&nbsp;</a>&gt;&nbsp;钻戒</span>
+				</div>
+				<div class="left">
+					<div class="leftnav">
+						<h2>快捷导航</h2>
+						<div class="list">
+							<div id="firstpane" class="menu_list">
+								<p class="menu_head">裸钻</p>
+								<div style="display:none;" class="menu_body">
+									<a href="">30分裸钻</a>
+									<a href="">40分裸钻</a>
+									<a href="">50分裸钻</a>
+									<a href="">60分裸钻</a>
+									<a href="">克拉钻</a>
+									<a href="">精选戒托</a>
+								</div>
+								<p class="menu_head">钻戒</p>
+								<div style="display:none;" class="menu_body">
+									<a href="" target="_blank">订婚女戒</a>
+									<a href="" target="_blank">结婚对戒</a>
+									<a href="" target="_blank">绅士男戒</a>
+								</div>
+								<p class="menu_head current">配饰</p>
+								<div style="display:none;" class="menu_body">
+									<a href="" target="_blank">项链</a>
+									<a href="" target="_blank">吊坠</a>
+									<a href="" target="_blank">耳钉</a>
+									<a href="" target="_blank">手链</a>
+								</div>
+								<p class="menu_head">设计师</p>
+								<div style="display:none;" class="menu_body">
+									<a href="" target="_blank">首席设计师</a>
+									<a href="" target="_blank">高级设计师</a>
+								</div>
+								<p class="menu_head">婚戒定制</p>
+									<div style="display:none;" class="menu_body">
+										<a href="" target="_blank">基本定制</a>
+										<a href="" target="_blank">个性定制</a>
+										<a href="" target="_blank">原创定制</a>
+									</div>
+								<p class="menu_head">关于我们</p>
+									<div style="display:none;" class="menu_body" >
+										<a href="" target="_blank">艺术家故事</a>
+										<a href="" target="_blank">品牌探索</a>
+										<a href="" target="_blank">宣传视频</a>
+										<a href="" target="_blank">联系我们</a>
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="searchcondition">
+						<div class="size">
+							<h2>价格</h2>
+							<ul>
+								<li>
+									<input type="checkbox" id="price1" onclick="setUrl()" class="regular-checkbox" name="price" value="95">
+									<label for="price1"></label>
+									<label for="peice1">&nbsp;3000以下</label>
+								</li>
+								<li>
+									<input type="checkbox" id="price2" onclick="setUrl()" class="regular-checkbox" name="price" value="85">
+									<label for="price2"></label>
+									<label for="peice2">&nbsp;3000-6000</label>
+								</li>
+								<li>
+									<input type="checkbox" id="price3" onclick="setUrl()" class="regular-checkbox" name="price" value="86">
+									<label for="price3"></label>
+									<label for="peice3">&nbsp;6000-10000</label>
+								</li>
+								<li>
+									<input type="checkbox" id="price4" onclick="setUrl()" class="regular-checkbox" name="price" value="87">
+									<label for="price4"></label>
+									<label for="peice4">&nbsp;10000-20000</label>
+								</li>
+								<li>
+									<input type="checkbox" id="price5" onclick="setUrl()" class="regular-checkbox" name="price" value="88">
+									<label for="price5"></label>
+									<label for="peice5">&nbsp;20000以上</label>
+								</li>
+							</ul>
+						</div>
+						<!-- 主钻大小 -->
+						<div class="size">
+							<h2>主钻大小</h2>
+							<ul>
+								<li>
+									<input type="checkbox" id="size1" onclick="setUrl()" class="regular-checkbox" name="size" value="89">
+									<label for="size1"></label>
+									<label for="size1">&nbsp;30分以下</label>
+								</li>
+								<li>
+									<input type="checkbox" id="size2" onclick="setUrl()" class="regular-checkbox" name="size" value="90">
+									<label for="size2"></label>
+									<label for="size2">&nbsp;30-59分</label>
+								</li>
+								<li>
+									<input type="checkbox" id="size3" onclick="setUrl()" class="regular-checkbox" name="size" value="91">
+									<label for="size3"></label>
+									<label for="size3">&nbsp;60-99分</label>
+								</li>
+								<li>
+									<input type="checkbox" id="size4" onclick="setUrl()" class="regular-checkbox" name="size" value="92">
+									<label for="size4"></label>
+									<label for="size4">&nbsp;一克拉以上</label>
+								</li>
+							</ul>
+						</div>
+						<!-- 主钻形状 -->
+						<div class="size">
+							<h2>主钻形状</h2>
+							<ul>
+								<li>
+									<input type="checkbox" id="shape1" onclick="setUrl()" class="regular-checkbox" name="shape" value="30">
+									<label for="shape1"></label>
+									<label for="shape1">&nbsp;圆形</label>
+								</li>
+								<li>
+									<input type="checkbox" id="shape2" onclick="setUrl()" class="regular-checkbox" name="shape" value="31">
+									<label for="shape2"></label>
+									<label for="shape2">&nbsp;异形</label>
+								</li>
+							</ul>
+						</div>
+						<!-- 戒指材质 -->
+						<div class="size">
+							<h2>戒指材质</h2>
+							<ul>
+								<li>
+									<input type="checkbox" id="material1" onclick="setUrl()" class="regular-checkbox" name="material" value="32">
+									<label for="material1"></label>
+									<label for="material1">&nbsp;铂900</label>
+								</li>
+								<li>
+									<input type="checkbox" id="material2" onclick="setUrl()" class="regular-checkbox" name="material" value="33">
+									<label for="material2"></label>
+									<label for="material2">&nbsp;18K金</label>
+								</li>
+							</ul>
+						</div>
+						<!-- 戒指颜色 -->
+						<div class="size">
+							<h2>戒指颜色</h2>
+							<ul>
+								<li>
+									<input type="checkbox" id="color1" onclick="setUrl()" class="regular-checkbox" name="color" value="34">
+									<label for="color1"></label>
+									<label for="color1">&nbsp;白金</label>
+								</li>
+								<li>
+									<input type="checkbox" id="color2" onclick="setUrl()" class="regular-checkbox" name="color" value="35">
+									<label for="color2"></label>
+									<label for="color2">&nbsp;K黄</label>
+								</li>
+								<li>
+									<input type="checkbox" id="color3" onclick="setUrl()" class="regular-checkbox" name="color" value="34">
+									<label for="color3"></label>
+									<label for="color3">&nbsp;玫瑰金</label>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="productlist">
+						<ul id="ul">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	  <footer>
+			<iframe src="footer.html" frameborder="0" class="my_footer"></iframe>
+		</footer>
+		
+	<script src="../js/product.js"></script>
+	</body>
+</html>

@@ -1,0 +1,105 @@
+
+     .pop_up {
+        display: none;
+        width: 700px;
+        height: 430px;
+        position: fixed;
+        left: 50%;
+        margin-left: -350px;
+        background-color: #ffffff;
+        top: 169px;
+        z-index: 9999; }
+     .pop_up .pop_close {
+        width: 40px;
+        height: 40px;
+        background: #eee;
+        text-align: center;
+        line-height: 40px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+        cursor: pointer;
+        color: #000; }
+ /* 遮罩层样式 */
+ .cover{
+    display:none;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    background-color:#000;
+    opacity:0.3;
+}
+
+
+/*登录样式*/
+ .wellogin {
+    position: absolute;
+    top: 50px;
+    right: 78px;
+    overflow: hidden;
+    width: 286px;
+    height: 27px;
+}
+ .nickname {
+    position: absolute;
+    top: 116px;
+    right: 81px;
+    overflow: hidden;
+    width: 240px;
+    height: 40px;
+    border: none;
+    color: #666;
+    line-height: 30px;
+    outline: none;
+    border:1px solid #666;
+}
+.password {
+    position: absolute;
+    top: 173px;
+    right: 81px;
+    overflow: hidden;
+    width: 240px;
+    height: 40px;
+    border: none;
+    color: #666;
+    line-height: 30px;
+    outline: none;
+    border:1px solid #666;
+}
+ .regist {
+    position: absolute;
+    top: 261px;
+    right: 230px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 136px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+ .login {
+    position: absolute;
+    top: 261px;
+    right: 66px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 136px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+ 
+}
+.rememberpass {
+    position: absolute;
+    top: 226px;
+    right: 245px;
+    outline: none;
+}

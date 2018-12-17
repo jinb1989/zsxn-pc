@@ -1,0 +1,73 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#fff;
+	font-family:"宋体";
+	font-size:12px;
+	color:#666;
+	display:block;
+}
+#header{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	background:#000;
+	padding:1.5% 0;
+	text-align:center;
+}
+#header p{
+	width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  color: #d0ba93;
+  font-family: "Microsoft YaHei" !important;
+  display: block;
+  line-height: 200%;
+}
+#nav{
+	width:100%;
+	height:auto;
+	background-color:#dadada;
+	overflow:visible;
+	position:relative;
+	
+}
+#nav ul{
+	width:auto;
+	height:50px;
+	padding:0;
+	margin:0 12%;
+}
+#nav ul li{
+	list-style:none;
+	float:left;
+	padding:0 3.5%;
+	font-size:14px;
+	text-align:center;
+	line-height:50px;
+	width:130px;
+	height:50px;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:#000;
+	
+}
+
+/* 下拉框 */
+ 
+/* .xl1{
+	display:none;
+}  */
+ .xlleft,{
+	float:left;
+}
+.xlmiddle{
+float:left;
+ }
+.xlright{
+	float:left
+}

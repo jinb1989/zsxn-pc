@@ -1,0 +1,47 @@
+#shopcart{
+  width:1180px;
+	height:auto;
+	margin:2% auto;
+	
+}
+#shopcart .head .name{
+	padding-right:5%;
+	color:#666;
+	font-size:20px;
+}
+#shopcart .head span{
+	padding-left:64%;
+}
+#shopcart .other{
+	border-top:3px solid #666;
+}
+
+
+#shopcart .other .options-list ul{
+	list-style:none;
+}
+#shopcart .other .options-list ul li{
+	float:left;
+	font-size:20px;
+	padding:5px 4%;
+	color:#666;
+}
+
+#shopcart .other .go-on{
+	clear:both;
+	border:3px solid #ccc;
+	padding:2% 2% 1%;
+}
+#shopcart .other .go-on{
+	color:#666;
+}
+#shopcart .other .go-on span{
+	padding-left:60%;	
+}
+#shopcart .other .go-on button{
+	color:white;
+	background:rgba(171,171,171,.8);
+	padding:1% 5%;
+	border-radius:5px;
+	margin-left:5%;
+}

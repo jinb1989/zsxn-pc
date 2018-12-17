@@ -1,0 +1,220 @@
+*{
+	margin:0;
+	padding:0
+}
+.container{
+	width:100%;
+	height:auto
+}
+.topimg {
+    width:100%;
+    height:400px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.listmain {
+    width: 1180px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.address {
+    width: 1180px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+	}
+	/* .address .now {
+	    width: 70%;
+	    height: 50px;
+	    overflow: hidden;
+	    line-height: 50px;
+	    float: left;
+	    color: #666;
+	} */
+
+/* 位置 */
+.address{
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+    color: #666;
+		margin:0.5%;
+		font-size:14px;
+}
+/* 左边 */
+	.left {
+    width: 220px;
+    min-height: 1128px;
+    height: auto !important;
+    height: 1128px;
+    overflow: visible;
+    float: left;
+    background: #f3f1f2;
+    border-top: 4px solid #716f70;
+}
+.leftnav {
+    width: 180px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.leftnav h2 {
+    width: 180px;
+    height: 46px;
+    overflow: hidden;
+    line-height: 46px;
+    border-bottom: 1px solid #dcdcdc;
+    font-family: "Microsoft YaHei" ! important;
+    font-weight: normal;
+}
+.leftnav .list {
+    width: 180px;
+    height: auto;
+    overflow: hidden;
+}
+.searchcondition .size{
+	margin-left:20px;
+}
+.searchcondition .size ul{
+	list-style:none;
+}
+
+
+.menu_head {
+    width: 180px;
+    height: 32px;
+    line-height: 32px;
+    color: #787677;
+    text-indent: 20px;
+    cursor: pointer;
+    position: relative;
+    margin: 0px;
+    background: url(../images/listnav01.jpg) left 10px no-repeat;
+    font-size: 15px;
+    font-family: "Microsoft YaHei" ! important;
+		
+}
+.menu_body {
+    width: 180px;
+    height: auto;
+    overflow: hidden;
+    line-height: 26px;
+    color: #777576;
+    text-indent: 25px;
+    font-size: 13px;
+    font-family: "Microsoft YaHei" ! important;
+		
+}
+.menu_body a {
+    display: block;
+    width: 180px;
+    height: 26px;
+    line-height: 26px;
+}
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+.menu_body a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+/* 右侧商品列表 */
+.right {
+    width: 940px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-left: 20px;
+    background: #f4f2f3;
+}
+.productlist {
+    width: 938px;
+    min-height: 1138px;
+    height: auto !important;
+    overflow: visible;
+    background: #f3f1f2;
+    margin-left: 2px;
+}
+.productlist ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+.productlist ul li {
+    width: 285px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+    background-size: 100% 100%;
+}
+.productlist ul li.zw-x {
+    width: 21px;
+    height: 340px;
+    overflow: hidden;
+    background: none;
+    box-shadow: none;
+}
+.productlist ul li .pic {
+    width: 285px;
+    height: 235px;
+    overflow: hidden;
+}
+.productlist ul li .title {
+    width: 285px;
+    height: 32px;
+    overflow: hidden;
+    line-height: 32px;
+    text-align: center;
+    color: #646263;
+}
+.productlist ul li .price {
+    width: 285px;
+    height: 34px;
+    overflow: hidden;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Microsoft YaHei" ! important;
+}
+.productlist ul li .price .price1 {
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+}
+.productlist ul li .price .price2 {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+.productlist ul li .sold {
+    width: 285px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 34px;
+}
+.right .productlist ul li a img {
+    position: relative;
+    width: 286px;
+    height: 236px;
+    top: -0.5px;
+    left: -0.5px;
+		transition:1s;
+}
+.productlist img:hover{
+	transform:scale(1.03);
+}
+
+	
